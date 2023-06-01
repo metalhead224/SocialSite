@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TgPSY+SqwTxG/DurOeWlZ/WQ9DiiE7CqQNqc3N6BczmqI6M53Uwhcg6+zYP9iolSbslFnqGRQlsNvHxUuz5HoQ==",
+  "dgSpecHash": "Gm6V9oqXvMqrXr9+rX6pYHmqUz8d4jiG0DWgxylCu8nNCBIF8ZMrlvlAQmiWF3yguiOVa8vh4H2hJBFCKn9c2Q==",
   "success": true,
   "projectFilePath": "D:\\MyFiles\\academic stuffs\\courses-file\\.net-social-site\\Reactivities\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suman\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\suman\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\suman\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\suman\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\suman\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\suman\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
     "C:\\Users\\suman\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
