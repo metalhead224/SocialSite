@@ -76,3 +76,5 @@ D:\MyFiles\academic stuffs\courses-file\.net-social-site\Reactivities\Reactiviti
 D:\MyFiles\academic stuffs\courses-file\.net-social-site\Reactivities\Reactivities\API\bin\Debug\net7.0\MediatR.dll
 D:\MyFiles\academic stuffs\courses-file\.net-social-site\Reactivities\Reactivities\API\bin\Debug\net7.0\MediatR.Contracts.dll
 D:\MyFiles\academic stuffs\courses-file\.net-social-site\Reactivities\Reactivities\API\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\MyFiles\academic stuffs\courses-file\.net-social-site\Reactivities\Reactivities\API\bin\Debug\net7.0\AutoMapper.dll
+D:\MyFiles\academic stuffs\courses-file\.net-social-site\Reactivities\Reactivities\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
