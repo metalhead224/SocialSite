@@ -34,6 +34,8 @@ export default class ActivityStore {
     }
   };
 
+  
+
   setLoadingInitial = (state: boolean) => {
     this.loadingInitial = state;
   };
