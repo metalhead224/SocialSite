@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { SyntheticEvent, useState } from "react";
 import { Button, Item, ItemContent, Label, Segment } from "semantic-ui-react";
 import { useStore } from "../../../app/stores/store";
@@ -59,3 +60,31 @@ export default observer(function ActivityList() {
     </Segment>
   );
 });
+=======
+import { observer } from 'mobx-react-lite';
+import { Fragment } from 'react';
+import { Header } from "semantic-ui-react";
+import { useStore } from '../../../app/stores/store';
+import ActivityListItem from './ActivityListItem';
+
+export default observer(function ActivityList() {
+    const { activityStore } = useStore();
+    const { groupedActivities } = activityStore;
+
+    return (
+        <>
+            {groupedActivities.map(([group, activities]) => (
+                <Fragment key={group}>
+                    <Header sub color='teal'>
+                        {group}
+                    </Header>
+                    {activities && activities.map(activity => (
+                        <ActivityListItem key={activity.id} activity={activity} />
+                    ))}
+                </Fragment>
+            ))}
+        </>
+
+    )
+})
+>>>>>>> 6d95d7812a4120f9ccebc3c681cc74d9a3383583

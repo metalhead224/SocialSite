@@ -18,7 +18,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+<<<<<<< HEAD
     "jsx": "react-jsx"
+=======
+    "jsx": "react-jsx",
+    "typeRoots": ["node_modules/yup"]
+>>>>>>> 6d95d7812a4120f9ccebc3c681cc74d9a3383583
   },
   "include": [
     "src"

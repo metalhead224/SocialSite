@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+using Application.Activities;
+>>>>>>> 6d95d7812a4120f9ccebc3c681cc74d9a3383583
 using AutoMapper;
 using Domain;
 
@@ -8,6 +12,19 @@ namespace Application.Core
         public MappingProfiles()
         {
             CreateMap<Activity, Activity>();
+<<<<<<< HEAD
+=======
+            CreateMap<Activity, ActivityDto>()
+                .ForMember(d => d.HostUsername, o => o.MapFrom(s => s.Attendees
+                    .FirstOrDefault(x => x.IsHost).AppUser.UserName));
+            CreateMap<ActivityAttendee, AttendeeDto>()
+                .ForMember(d => d.DisplayName, o => o.MapFrom(s => s.AppUser.DisplayName))
+                .ForMember(d => d.Username, o => o.MapFrom(s => s.AppUser.UserName))
+                .ForMember(d => d.Bio, o => o.MapFrom(s => s.AppUser.Bio))
+                .ForMember(d => d.Image, o => o.MapFrom(s => s.AppUser.Photos.FirstOrDefault(x => x.IsMain).Url));
+            CreateMap<AppUser, Profiles.Profile>()
+                .ForMember(d => d.Image, s => s.MapFrom(o => o.Photos.FirstOrDefault(x => x.IsMain).Url));
+>>>>>>> 6d95d7812a4120f9ccebc3c681cc74d9a3383583
         }
     }
 }
